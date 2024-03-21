@@ -1,0 +1,69 @@
+body{
+    background-color: #030A11;
+
+}
+.eve {
+    background-color:rgb(60, 60, 64) ;
+    width: 31%;
+    color: white;
+    margin-bottom: 20PX;
+}
+.eve img{
+    height: 60%;
+    width: 100%;
+}
+.topbar {
+    background: #030A11;
+    color: black;
+
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+.nav-item{
+    display: flex;
+    width: 24%;
+    justify-content: space-between;
+}
+.TOP {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px;
+    /* padding-right: 30px; */
+}
+.in{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+
+@media only screen and (max-width: 600px) {
+    .eve{
+        width: 100%;
+    }
+    .nav-item{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .eve{
+        width: 100%;
+    }
+    .nav-item{
+        width: 70%;
+    }
+}
+.A{
+    color: white;
+    font-size: 200%;
+    font-weight: bolder;
+}
+.eve a{
+    text-decoration: none;
+    color: bisque;
+}
